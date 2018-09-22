@@ -1,0 +1,110 @@
+/* Match stats*/
+
+{
+    "id": 20180922,    
+    "matchType": <1 - 30 overs / 2 - 25 overs / 3 - 20 overs>,
+    "series":{
+        "id": 201809,
+        "name": "7Star"
+    },
+    "date": "22/09/2018",
+    "startTime": "10 AM",
+    "venue": "University Union",
+    "hometeam": {
+        "id": 1,
+        "name": "MMCC",
+        "toss": "won",
+        "battingFirst": false,
+        "captain": "Naga",
+        "runsScored": "134",
+        "wicketGiven": "0",
+        "extrasReceived": "26",
+        "oversPlayed": "15",
+        "runsGiven": "133",
+        "wicketsTaken": "10",
+        "oversBowled": "19",
+        "extrasGiven": "15"
+    },
+    "awayteam": {
+        "id": 2,
+        "name": "Avengers"
+    },
+    "matchStatus": "MMCC won by 10 wickets",
+    "winningTeamId": 1
+}
+/* Score card*/
+{
+    "matchId": 20180922,
+    "seriesId": 201809,
+    "scorecard":{
+        "batInnings":{
+            "innings": "2",
+            "batsmen":[
+                {
+                    "id": 19920827,
+                    "name": "Prashaanth",
+                    "runs": "65",
+                    "balls": "50",
+                    "strikeRate": "150",
+                    "fours": "6",
+                    "sixes": "1",
+                    "howOut": "lbw",
+                    "position": "1"
+                },
+                {
+                    "id": 19880310,
+                    "name": "Srini RnW",
+                    "runs": "46",
+                    "balls": "50",
+                    "strikeRate": "90",
+                    "fours": "4",
+                    "sixes": "0",
+                    "howOut": "caught",
+                    "position": "2"
+                },
+                .
+                .
+                .
+                .
+                {
+                    "id": n,
+                    "name": "N",
+                    "runs": "",
+                    "balls": "",
+                    "strikeRate": "",
+                    "fours": "",
+                    "sixes": "",
+                    "howOut": "not out"
+                },
+            ]
+        },
+        "bowlInnings": {
+            "innings": "2",
+            "bowlers": [
+                {
+                    "id": 19920827,
+                    "name": "Prashaanth",
+                    "runsGiven": "28",
+                    "maidens": "1",
+                    "wickets": "6",
+                    "overs": "6.0",
+                    "wides": "2",
+                    "noBalls": "0",
+                    "economy": "4.67",
+                    "bowlerNumber": "1"
+                }
+            ]
+        },
+        "fielding": {
+            "players": [
+                {
+                    "id": 19920827,
+                    "name": "Prashaanth",
+                    "catches": "2",
+                    "runOuts": "0",
+                    "stumpings": "0"
+                }
+            ]
+        }
+    }
+}
